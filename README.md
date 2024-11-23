@@ -4,9 +4,8 @@ This monorepo is designed to create showcases of components.
 
 ## Components
 
-Component Description Preview
-| Component | Description | Preview |
-|-----------|-------------|---------|
+| Component                | Description                                                                                            | Preview                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
 | MagSafe Wallet Component | A UI component inspired by Apple's MagSafe Wallet and designed by [@hypeople](https://x.com/hypeople). | ![MagSafe Component Demo Screenshot](apps/web/public/screenshot.png) |
 
 ## What's inside?
