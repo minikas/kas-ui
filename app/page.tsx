@@ -42,7 +42,7 @@ export default function Home() {
                 Designed by
                 <Link
                   target="_blank"
-                  href="https://x.com/hypeople"
+                  href="https://x.com/HypeopleStudio"
                   className="ml-2 font-bold text-blue-600"
                 >
                   @hypeople
