@@ -43,10 +43,6 @@ jobs:
       - name: Build TurboRepo
         run: yarn turbo run build --filter=@kas-ui/web
 
-      - name: Export Next.js Static Site
-        run: yarn workspace web next export
-        working-directory: apps/web
-
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
