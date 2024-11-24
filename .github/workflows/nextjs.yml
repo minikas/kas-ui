@@ -77,7 +77,6 @@ jobs:
       - name: Build with Next.js
         run: yarn build
 
-
   # Deployment job
   deploy:
     environment:
@@ -86,7 +85,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-       uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages
-          folder: apps/web/build
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
