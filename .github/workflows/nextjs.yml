@@ -41,7 +41,7 @@ jobs:
         run: yarn install
 
       - name: Build TurboRepo
-        run: yarn turbo run build --filter=apps/web
+        run: yarn turbo run build --filter=@kas-ui/web
 
       - name: Export Next.js Static Site
         run: yarn workspace web next export
