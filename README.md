@@ -1,42 +1,50 @@
-# Kas UI
+# MagSafe Wallet Component
 
-This monorepo is designed to create showcases of components.
+This project is a Next.js application showcasing a UI component inspired by Apple's MagSafe Wallet, designed by [@hypeople](https://x.com/hypeople).
 
-## Components
+![MagSafe Component Demo Screenshot](public/screenshot.png)
 
-| Component                | Description                                                                                            | Preview                                                              |
-| ------------------------ | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| MagSafe Wallet Component | A UI component inspired by Apple's MagSafe Wallet and designed by [@hypeople](https://x.com/hypeople). | ![MagSafe Component Demo Screenshot](apps/web/public/screenshot.png) |
+## Technologies Used
 
-## What's inside?
+- [Next.js](https://nextjs.org/) - React framework for building web applications
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
+- [ESLint](https://eslint.org/) - Linting utility for JavaScript and TypeScript
+- [Prettier](https://prettier.io/) - Code formatter
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
 
-- `web`: A Next.js app to showcase components.
-- `@repo/eslint-config`: Shared ESLint configurations (includes eslint-config-next and eslint-config-prettier).
-- `@repo/typescript-config`: Shared tsconfig.json configurations used throughout the monorepo.
+## Features
 
-### Build
+- Apple MagSafe-inspired UI component
+- Designed for light mode only
+- Responsive and animated UI
+- Simple integration with React and Next.js
 
-To build all apps and packages, run the following command:
+## Getting Started
 
-```
-yarn build
-```
+First, run the development server:
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
+```bash
+npm run dev
+# or
 yarn dev
 ```
 
-## Useful Links
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Learn more about the power of Turborepo:
+## Learn More
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+To learn more about the technologies used in this project, check out the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - explore Tailwind CSS utilities.
+- [shadcn/ui Documentation](https://ui.shadcn.com/) - learn about the re-usable components.
+- [Framer Motion Documentation](https://www.framer.com/motion/) - discover animation possibilities.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
