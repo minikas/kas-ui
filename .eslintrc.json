@@ -9,8 +9,7 @@
   "plugins": [
     "@typescript-eslint",
     "simple-import-sort",
-    "prettier",
-    "react-hooks"
+    "prettier"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",

@@ -1,16 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
+import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
+import { Button } from "@/components/ui/button";
 import { Apple } from "@/components/icons/apple";
 import { Wallet } from "@/components/icons/wallet";
 import { Wise } from "@/components/icons/wise";
 import { Nubank } from "@/components/icons/nubank";
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { useEffect, useState } from "react";
 import { Candle } from "@/components/icons/candle";
-import dynamic from "next/dynamic";
 
 const RandomPoints = dynamic(
   () => import("@/components/randomPoints").then((mod) => mod.RandomPoints),

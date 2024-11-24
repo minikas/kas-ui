@@ -1,6 +1,6 @@
 # MagSafe Wallet Component
 
-This project is a Next.js application showcasing a UI component inspired by Apple's MagSafe Wallet, designed by [@hypeople](https://x.com/hypeople).
+This project is a Next.js application showcasing a UI component inspired by Apple's MagSafe Wallet, designed by [@hypeople](https://x.com/HypeopleStudio).
 
 ![MagSafe Component Demo Screenshot](public/screenshot.png)
 
