@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <RandomPoints />
       <div className="flex flex-col items-center justify-center min-h-screen p-5 relative z-10">
-        <div className="flex items-center bg-slate-50 flex-col gap-6">
+        <div className="flex items-center flex-col gap-6">
           <header className="flex gap-2 items-center">
             <div className="min-w-7 h-7 bg-pink-500 rounded-full" />
             <div className="flex gap-x-2 flex-wrap">
